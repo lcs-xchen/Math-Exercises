@@ -76,7 +76,7 @@ struct ContentView: View {
             .tag(1)
             
         
-        Text("Minus")
+        Minus()
             .tabItem {
                 Image(systemName: "minus")
                 Text("Minus")
