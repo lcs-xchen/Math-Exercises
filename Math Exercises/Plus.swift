@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Plus.swift
 //  Math Exercises
 //
 //  Created by Cindy Chen on 2024-01-15.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Plus: View {
     // MARK: Stored properties
     @State var firstNumber: Int = 1
     @State var secondNumber: Int = 1
     
     // MARK: Computed properties
     var times: Int {
-        return firstNumber * secondNumber
+        return firstNumber + secondNumber
     }
     
     var body: some View {
@@ -37,7 +37,7 @@ struct ContentView: View {
             
            
             HStack {
-                Image(systemName: "multiply")
+                Image(systemName: "plus")
                     .font(.system(size: 50))
                     .padding()
                 
@@ -65,41 +65,7 @@ struct ContentView: View {
         .padding()
     }
 }
+
 #Preview {
-    TabView(selection: Binding.constant(3)){
-        
-        Plus()
-            .tabItem {
-                Image(systemName: "plus")
-                Text("Plus")
-            }
-            .tag(1)
-            
-        
-        Text("Minus")
-            .tabItem {
-                Image(systemName: "minus")
-                Text("Minus")
-            }
-            .tag(2)
-            
-        
-        ContentView()
-            .tabItem {
-                Image(systemName: "multiply")
-                Text("Multiply")
-            }
-            .tag(3)
-        
-        Text("Divide")
-            .tabItem {
-                Image(systemName: "divide")
-                Text("Divide")
-            }
-            .tag(4)
-        
-        
-        
-    }
-    .accentColor(.purple)
+    Plus()
 }

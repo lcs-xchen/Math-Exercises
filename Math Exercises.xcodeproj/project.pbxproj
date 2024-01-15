@@ -11,6 +11,8 @@
 		DF706D432B55951C004F0CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D422B55951C004F0CA9 /* ContentView.swift */; };
 		DF706D452B55951E004F0CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D442B55951E004F0CA9 /* Assets.xcassets */; };
 		DF706D482B55951E004F0CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF706D472B55951E004F0CA9 /* Preview Assets.xcassets */; };
+		DF706D4F2B559BDD004F0CA9 /* Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D4E2B559BDD004F0CA9 /* Plus.swift */; };
+		DF706D512B559C4B004F0CA9 /* Minus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF706D502B559C4B004F0CA9 /* Minus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DF706D422B55951C004F0CA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF706D442B55951E004F0CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF706D472B55951E004F0CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF706D4E2B559BDD004F0CA9 /* Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus.swift; sourceTree = "<group>"; };
+		DF706D502B559C4B004F0CA9 /* Minus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				DF706D402B55951C004F0CA9 /* Math_ExercisesApp.swift */,
 				DF706D422B55951C004F0CA9 /* ContentView.swift */,
+				DF706D502B559C4B004F0CA9 /* Minus.swift */,
+				DF706D4E2B559BDD004F0CA9 /* Plus.swift */,
 				DF706D442B55951E004F0CA9 /* Assets.xcassets */,
 				DF706D462B55951E004F0CA9 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF706D432B55951C004F0CA9 /* ContentView.swift in Sources */,
+				DF706D4F2B559BDD004F0CA9 /* Plus.swift in Sources */,
+				DF706D512B559C4B004F0CA9 /* Minus.swift in Sources */,
 				DF706D412B55951C004F0CA9 /* Math_ExercisesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
